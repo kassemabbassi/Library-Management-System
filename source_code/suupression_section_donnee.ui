@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>suppression_etudiant_section_donnee</class>
+ <widget class="QWidget" name="suppression_etudiant_section_donnee">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>870</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1024</width>
+    <height>870</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:repeat, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(18, 178, 255, 254), stop:1 rgba(255, 255, 255, 255));
+background-image: url(:/ressources/23.jpg);
+background-color: rgb(54, 54, 54);
+color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>350</y>
+     <width>311</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bahnschrift SemiLight</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+
+border-radius:10px</string>
+   </property>
+   <property name="text">
+    <string>Entrer la section</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="suppsection">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>550</y>
+     <width>231</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bahnschrift SemiLight</family>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+
+color: rgb(255, 255, 255);
+border:2px solid white;
+border-radius:10px</string>
+   </property>
+   <property name="text">
+    <string>supprimer</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>140</y>
+     <width>731</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>24</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+
+border-radius:10px</string>
+   </property>
+   <property name="text">
+    <string>Suppression les étudiants d'une section</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>360</y>
+     <width>271</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+border:2px solid white;
+border-radius:10px</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Cycle Préparatoire intégré</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>License Info</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>License Tic</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>License électronique</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ingénieur électronique</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ingéniuer Informatique</string>
+    </property>
+   </item>
+  </widget>
+ </widget>
+ <resources>
+  <include location="ressources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

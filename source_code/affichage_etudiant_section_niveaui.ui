@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>affichage_etudiant_section_niveaui</class>
+ <widget class="QWidget" name="affichage_etudiant_section_niveaui">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1300</width>
+    <height>870</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-20</y>
+     <width>1300</width>
+     <height>870</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="ressources.qrc">:/ressources/23.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>230</y>
+     <width>1261</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>136</number>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>Numero inscription</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Nom</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Prenom</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Date Naissance</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Adresse</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Mail</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Telephone</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Section</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Niveau Etude</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>60</y>
+     <width>301</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+
+border-radius:10px</string>
+   </property>
+   <property name="text">
+    <string>Entrer la section</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>130</y>
+     <width>351</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+
+border-radius:10px</string>
+   </property>
+   <property name="text">
+    <string>Entrer le niveau d'étude</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>61</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+border:2px solid white;
+border-radius:10px</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>Cycle Préparatoire intégrée</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>License Info</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>License Tic</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>License électronique</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ingénieur électronique</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Ingénieur Informatique</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_2">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>131</y>
+     <width>271</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background:transparent;
+color: rgb(255, 255, 255);
+border:2px solid white;
+border-radius:10px</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>1 ére année</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>2 éme année</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>3 éme année</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>757</y>
+     <width>191</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+color: rgb(255, 255, 255);
+border:2px solid white;
+border-radius:10px</string>
+   </property>
+   <property name="text">
+    <string>Afficher</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="ressources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
